@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Сергій Жадан</title>
+  <style>
+    body {
+      background-color: #1e1e2f;
+      color: #ffffff;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+      margin-top: 50px;
+      background: linear-gradient(to right, #ffffff, #87CEFA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .gradient-heading {
+      font-size: 28px;
+      font-weight: bold;
+      background: linear-gradient(to right, white, #87CEFA);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .photo-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px 0;
+    }
+
+    .photo-row img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .photo-row figcaption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #f0e68c;
+      text-align: center;
+    }
+
+    ul, ol {
+      text-align: left;
+      margin: 0 auto 30px;
+      padding: 0 20px;
+      max-width: 800px;
+    }
+
+    li, p, a {
+      font-size: 18px;
+      color: #dddddd;
+    }
+
+    a {
+      text-decoration: none;
+      color: #87CEFA;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    iframe {
+      display: block;
+      margin: 40px auto;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .fact-box {
+      background-color: #2f2f4f;
+      border-left: 5px solid #87CEFA;
+      padding: 20px;
+      margin: 30px 20px;
+      border-radius: 10px;
+    }
+
+    .fact-box h2 {
+      color: #ffd700;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 class="gradient-heading">Все буде Україна!</h2>
+  <header class="site-header">
+  <h1>Сергій Жадан — письменник, поет, волонтер</h1>
+
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUTEhIVFRUWFxUVFRUVFRUVFRUWFRUXFxUVFxUYHSggGB0lGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lHyUtLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAQMAwgMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xAA8EAABAwIDBQYEBAUEAwEAAAABAAIRAwQSITEFQVFhcQYTIoGRoTKxwfAHI1LRFEJicpIVM+HxJDRTQ//EABkBAAIDAQAAAAAAAAAAAAAAAAADAQIEBf/EACkRAAICAgICAgIBBAMAAAAAAAABAhEDIRIxBEEiMhNRQgVhcbEjM5H/2gAMAwEAAhEDEQA/AOPoyiQQAbUooggEAKRyiwoAIAU0IOKJuqWWoICaicnabJIHFWWz9j1X+LuiWjj4QeRO4ZZ8lDkl2Sk30U4B4I8B4K9qdn3AeJwEnLX0kZDVB2yu7HwFx1kEe2vyVVNPotwa7KHCjwq3YWkmWRG7KCBrGW7gkG3YSCAQOIg8iC1TyDiVRagrj/Tqf6jHT2O9JqbCdE03B3LQ/fsjnEjgyphE5KewjIiDzSMSsVEko8QQhHgUgNByMFLLUAxACEJTmFJwoARCCcRoAJzUklOQk4VBIQKNFCU0IAMFG5EAnreiXnCNT+6AEUxmFZM2Y8vwAYpcfNrRP1Wk2V2eoxiIxGBqfoD9FP2lctthhpNabhwEGI7psanP4jyhZX5Fuoj1hpXIpLe2pWsOrNFSoBkw/C0kkguA1MbtyRedpqlZwaXhh/lbBa3yIKor5rnOJdVbPM/VNhpPhqZg/C8ZgHmf3TPxruW2Rya1EvqF5VBILif1U3gEEcQY1Cs6NEEtIJLH5id36gemvQc1QU6z+6aT8bDAPEDPNXRuA0Pa39dOowcMbIc33KXNfovEevtiGC5ozAmeHVVVEMD+7cC0kCDwcTEEeRWkG2Sci3IAgxlMtaM+OYJ9VSbbtcdSlUaCD3QDwP1B74P+JCrGUnqRZxroO6t203YdHQDxBkA/IhSKIa0NcJaYzHy+ylVqBq1WF2giTvJAya0cBx4RwTe1C3G1tPPiBnGkCd5y1UO+iyJHaHYTKze+Zk6JdGkj+bzbBWLurJ1Mw4fsea6Ns6/a0hj4kiDykQB6GFR9pqLDSBboHkDTSCIny9gjDlknxZTLjTXJGOwowJQKAdC3GQUGInNQlEXIASQklLKJACZQS0SADwpJalhAlQSJDUuERKBKADDc1YbMaA/PXQDmFXtV/sGxxOBLC7LjlwGg+5VMjSiy+NfJF5sy6LXOBOEAgiBqDx4CNU1tKiMT3uJDSejnk8TuHAcM98p+0tcNQueAA0ZAyW4gPiMaxw4qXQsXV3Y6mTP5W/zHmVhi1F2beLlozVLZ/eaMAHABTKPZg9AVsm2jWiGiElzVojkst+BLszB2BlGvVLGyXT7+eUfJaRrE8GqzdkrHFFPbbLAgHzKnusqZgHcIHrPzKkwklqQ4tD4qI2LKnEAKNW2UBmzXhpPorJjErujuSJSaG/ji0YXaNo5pkCDOeIyDxg7io21rci0pyfiectdAYOXmt3c2weIIWf2hszMtdoeExO4hXhl2jJmwV0c+qJAKn7UtTTeQ7j005KFK6Saas5bVOggEcIg5HKkgSWoEJRKS4oAPAgkYkEAGEZRhESoJFBAlIa5OBAAHFXmyLtwIDQZOQiAI4EwZ1VGtf2E2f3ji4jkOXNLy1x2MxJ8tGk2Jso1TLyToY3T9ytRTsg1unRP7ItsOmU/TRTdotw56DeVzW7Z0oaKGthIzyKg1m55KwuYIlo371EewgYjwhaseizdjDU6QmWZJ7cnFWIOqdYmg1PUae9VydEw7JLGZKYyiIkhR2NEJ9py1WCRoItxTH/KiV2YzmNPdXLWYm5hRDbwl9MmW0Y/tdsMvpBwbnnhMHcJIXOCF6Kr0W1KHd4d3uN/XMrhPaewNC4ewiBOIdCt/i5LuJyfJh/IqZRSihHC2mQOUJSCUIQAcokEEAKARuCIoFygkIIwgEJQAAux/h/s8Mt2mMyMRnnw9lx2kJI6rvOw6IYxg/pgzpMLN5L+NGjx18i+sqYcZHzTl/SxdADH7qHbVs8j1P7KRUuYa9xjIb9wGawI3UUVzTic1Gq1Rhgqh2ltiq4kxGeSpX7cqAwTI6LdBFHI1DnwlisCAFmKW03HXNWtlVJTrJRakwE7YVwcuRTF54acxkVmrjaj2GW6pDly0MSo3OMFPUXA5eS5sO0Fad5VjZ7WefikJMoEqZ0GpLRlvUWu6Ao2x9p424Xbt6euG7lklpjo7RKsq8txHcYz1PBc//FmwAFKs3eS08ePpl7rZ0Hw0t4Zj6hUvbij3tk+Myw4xxMa9cpPkmYJcZpmXyI3Fo5AAkpSBXZOSEAgUlCUAHhQQxIIAUiRlGoJEIglhECgB6zHjb/c35hdssq3gDfvf+5XFLIxUZnHibnwzGa7JsyMOfP5rH5Xo1eN7NBb/AAj08lG27WIowN5+/krLZ1MRHHioW26B8InX5BZYm1vRlbmxayn3ld4aDoJknoFnrjaNqSQJPWB9VbbV2dUvKr3l0UmHu2TOcD+XlxWf/wBBc3IubwIGmuo8MrdiqS2zPkcovSF95Td8Bg8Dl/2tN2TDXh5PxAfZWbq27MYww0bxEg8+S1nZvZuGjVqCc4A9ZP0RLSsZDckmWt5Sa+gQNRK5tcuhzgRMGIC6JaiWdTBWZ2/shrMwCZMnn1WaH3aZqyR4rRm/9SezMMYMgZdEZmBqrfZXaQTFxbgtnCXs3c43pNJrHfEyco36K72ZZ0y0s7oQTJDpM+vROyuCiZYQycu9Eq3otDg+k6WOgjP2V/TbMSq+32N3R8BhpiWHMA8RwVzSo4QMvWFz3s1x7K69pwJ3SD6blXbT8dGpT1DmOb5kOjzzV3tKnNMxqFUUjLT4S4mRy4ZnzUIrOPJtHFCEULptbsbZtZgc/BUcIa4uJOLcS3eJ1XNbimWOcxwgtJaRzaYPuF2MeWOTo5Obx54q5exohFCPEiTRAaCLEjQAbiixI4RKCQFEEcIoQBqNkdibyvTFZrWtYc2lxMu4ECNF0fZ9u8UpcIMwY45aKu2Rf1Xvt6bXwx1Ol4YEDwA5cFon1ppkHiWkcwuflm5dnXXjLGk17RbbKzAnkndqUGy0nUKNsqr4QeGRzVjfUcTMQ80ldkNdFDfMaWBrQA0Tl1WVudmZ/EVpbkFRW0JMlbMcYpWV36KvZ3Z0POempP0WluHMo0jTHBO7OLWgl2QHui27ag0xU/V7cFSTcpJehkKjtlTZOEZqe62a8Q4SFF2QxjjnEQc5jNSWXOHIiRx3LPlVT0artFZcbKDTLdFJtWxqB6KUaodoiwb4V+V6Ylw/Q9T4KY74Uzb8U3XuJKRIvFES/reEj7KatqkUgBuBnjKK+0TO1ar6LGPa0EOdhdPQxHolrYxK5DW37UGkHQJEEHeuWdsKOG7qf1YX/wCTGk+8rqm0bnvKExERl13Lm3b9gFy3iaNOeoxD5QtviKpCP6iv+Ff5M0cklzkJQXROEBBJxoIAeDklEUUKCRRciaUprURCAOqdl3/+k/8Appif7SWlX9/eGpcNosAwuMOn+kEkg8YCwXYjauINt3fGwl9A8c8TqfXUjzWq2jUwVxUbxa9vQ5x6GFjnDdHexTWTHFr0q/8ADSbMdDns3iHdMgPeJV3TJiFl9l3QNZxz8Q37xrrxGYWooHwrK1TFeiBeW6q7x+EK9vOKzN86TmVoxbIeiPQ2q6njcBJDThBz3qmpdqn1sTa7Szg6ZaeAPBWdzeUqYkkGOHFZm+ue8kAAA5xA8yVadOWivP4/3J1vtMta4jN2jRMAk809sO9u3PLasRyEAec5rO0MnEEZT9wrqz2jgPh9IzPBKyRY7HlRpGtcw8lZ27pCz1LbmKARHVWljfNOYy6+6rJ2iVItSMkyWpfeTnuTdV2SRIait20+A3qPRJ7QvJo0oHhJmecf8qs25XcXNA5rQ2rA6m0VGAgARnl6IWqCEvnZTNZ+WwE5F0n+1okrknaDaRr3FSod5yHBoyA9F1Lttffw9q4xhc6adMb5f8Tv8QVxorf4y7kYv6lltqC9bFF6TjKJEtZyg5QRIIAkY0DUTRQUAOd4gaiaRoAkULlzHNe0w5pDmngQZB9V23YN2y8pUq3dNcCCHZ/7bxqCOEzHIhcKWy/DjtU2zquZW/2ampz8Dxo48txSssG1a7NXi5uEqfTOh7QeaVZkgCMMgZAZn3zWmt7kLO7WqUrkCpTeHACQ5pDh7JlrXNaHCoRyyzzz+qwyW9m6zT31eGFYja97llx+itbq/wAbC2dRrxhYTaNYkkA7zly0/dNxopkkN1rnES2fVFTq8Gl/QEhSNl7HB8bs+ugVheXQptwty5jJaNIpGu2QqZeYwW5DuJ09ynHWtcZuouz3tLT7SoTNpPOUnVaPZty92UEpWV16HwcWjN1rsh+EhzTzBHurq1vPhI455nMK22lYUn0yXNExrvlZAfluAGeeQ8skpJSWisvizc2945oAPHjOSXcXnDP791nW3ZmZJPh6BS7SoXlx+5+4SZKh8XoOm045cehGcdfQLR220adOn4yGgAyXEAQN+aoWVR+YTENaZO7EAcp01IXI7y4c9xLi4/3GSOUq+HD+SxGbyPxdKy97e9o/4yucJ/Kp+Gnz4uPX5LMEI0RXSjFRVI5c5uUuTCRQjQVigIQQQQAqEYCEoSoJCwoijlCUEBAo5QQhAF92NvnU7hjQcn+Ajd4shl1hdH/ijIbwy5T+6zP4Q9mxdXLq1QTStgHkbnvM4G9MifIK97TWz6NTFngqGZ3B2ufusmdJyRu8ZviwVLiCJk7vKP8AtZ65PjLgMideIHDkVY1auKnOWWoy1nIz5qM20bUbIyiZG8nCMIA5nF5BRBUWyslWt7DQDEe6nGhSeJ+81SmxLcOoOcjhGgz+8lG/jHtbhO6PonLZRT/ZefwtFp0/6iVPoXrGjIALIOvpOZVhZNL4M8QRyP2VWUdDY5UWu0dpF2hyjTdxVT/CYwTImZGWsCSP+VOdQggNI11y0nmrVlo1mEgCDOJvQSSPUpPQTkZx1wRLTrnlz3D2U+wrBmLdp6qjuK4FU4Tmd/KZB9FJscVV7WUwTuJUShovDKI7VbRNO3FPEZq4jl+nru3e6wkrbfibsKpa1mzLqNRjDTqQYJjxMO7EDPlCxWBacEUoGDPLlOxKIpWFEQnCRKCOEEAEjRSjUgGEAgjCgA4QwoAJQCCQsKvOyPZqrf3DaNMQMjUfGVNk5uPyA3lO9nux95eOaKNF2A//AKv8NMDjiOvlJXoXsX2Up7PthSYcTycVWpGbnxBj+kaAfugBzZnZ+hYWnc0GwI8Tj8b3HVzjvPyVHta1FSlhicsvP9wtpfU5YRyWCobSHeVKLjDmHL+ppzHpJCz+RjuKkvRs8WfcTBX2yalFxw555jcRzCg296WP8TJB1A1y0++a6HftBGazF/s5r3SMjvjolRn+x88X6JFPa7Dha8ANOkxoARPqXKi21Z4gXNiZnKOmYHn6J6vsp4bnmNBMEgdPZVNe3fnBI3QmxaM8oNFOWuDgD13RwCuLFpDQSYOe8gHP3UN7mjKMx6ymnVXkRBhN7F1RpKV8wtLSctQYzybA00zTlxtE4QWnwjKN8BsGfX7hZqyty9zQQTyH0Wy2PsH/AOjYbAy4ykZHGI7HjlMz1lsipVdOmIzPXd7rf7I2dTtaT3gHw03OJ3nC0lCnaNBkAIu0lc07G4cDH5Th6iPqss8jm0jbDEoJs3OwnNuLbBUa14jNrgHAjhBWW2r+FWz604GvoOOhpvlv+L5Cs+wVwe7p8C0fLI+nyWvfTzWmCdaOfmSU2cH2l+D9wJ7iux8fy1AaTugOYPssbtXsjfW/+7bVAP1BuJv+TZC9R16U6mOCaa2DBTVKQpxTPIpYiheodp9lLK7cRXtqbnfraMD/APNkErI7X/By0cf/AB61WkeDoqt94PumKX7KOJwyEF1B34OV5/8Abo/4P/dBW5IjizmACVC3/Yj8M614O9uC6hR/ly/Mqf2tPwj+o+i6HQ/D7ZtuR/43ef1VXuqTzLcm+ytGLl0VejkfYzsTdbRfFJuGmPjrPBwN5D9TuQ9l06n+ENlSjvqleoSM3AsYJ5Nwk+63Oz6lOiwMptDWDRrAGtb0AQ2hXk/FIiRKYsTvZHJehVSmG92GQGNwhgbkABAhS7K5MkO35jkqZlzmBMiQemanNOac8SSoXzsu3NkLjv4hW7re6p1RIxAsJ5jNvsSus2Nacisx+IWxjcW7w0eIeJn9zcx65jzWdx7iPxTqSZi7bauNoB14IB4LtVmtnVJGeRCtWV4Oaxyxr0dSLvTLstkEf881U3dETOSfp3J3aKHc1JKUlsu4lbVtGk6Im2YJiFMGqcpAYlZt0RGCsk7NtWs0aAVe0qojmoDaXBWNvR4rJN2aIpIca2c1R/iFWiyeyfjLWe8n2aVo25ZLEfibXAZRZxcXH2A+ZUYleREZXWNm+7HHCxnQD00++a3gIIB4rn3Zt2Gm3kFtbKvLI3hdJRpHLz7kKqnOU3UbjGWRG/6In5pVMQpSFECzcTUIzylJp3MmTzU65phsv4iD14qmaJTIqwsWavJBShTCCtaATUv26a8DooFe4LtTlw3JTmNPJM1GELakkjHdsU1yPEm2OThCvWtEXvZHdkVcNqbxvVNXyVlavlg6Ir4oq/sydQqw4FTNoNDmGFVFP2VaZYfL9kvJj/kvRaE90cb7R2Bt7pwjwvONvn8Q8j9Eu3Mro3bLs+Lmg4Nb+ayX0yNSRqzzHvC5nYP3HXguflXGR2PHnzh/cnBsInZpxrckmElux3QlzQipjNLIS6OqiXRMey3szIVo1sBVFs9WlJ0hYpmhDjAuZfiDcY7hoGjS1vuCulXNUMYTy+S5ZtSi6tcU26lz5PQZn2Cd40PlYnyJfCjquxh+Ww8hK0lGvhAI1+/oqTZLYYOgVnbiHDhPtvXVUNHLyTtl02s1wBCU4SFzKjcvxFzXOEk6E6bk6zatwHQKr+Gs/NZ7LcDoe0T+X5hVgEJq1varmw8yIHCZG9Cu/cm496Fy0hRu+SCjwgtHBCubCJlGJU61sGnUkHgl3NnhzCY8iuhagyvNs6JA01SWSrG2MGVO7sagZFUeVxLqCkUT6GMRxSrIEMAOon5lSK7AxxA6hLFKaeLeHexTVPQpxEoswZGoQBRp4hkw1phw139Vz3trsUUa3f0x+XVMmNG1NXDkDqPNbRR791OpTdQfmH6H9Dtzp4grB5WFcf8ARu8XM1P/AGc/owQieyEs0XU3OY8Q5pgjmjc3guYjssjuCJpKcqc0kBSyET7R0q1o1YCpaNSFNZWyknIJEo2MsTty4IZE/F8gq7snsoVKj6pGgwN+bj8h5lNbQuMUn06LYdlLQMt6Z4tDj1d4j81u8bHRk8rJUSfaswgBN7QuoBY3UiHHgDuVvZWmI4joPmm7u3Z3mTR6JmbLXwRjxxt8mZu1tJMBSLzZRa5rstxB6bip/cYXkc1PvmTTaeB+aXGHQ1yINF+WaMvlJKIHJbMcEkZJysGJBCEE2ill26nOY1S6dwD4XImZJu+p5Ygs/bpjfVjbqZY6Nx0Kl2rt3H5pmi7vG4Trq0puk+PJWltUyEQdoVPG7ll6KZsu+Zgwu59M05f2XeeNuujhx5qpNuWHMR8kck48Q47sm3Vei3+cDz1UGttJn8oc75J+naUnA4m6+oRt2bHwwVZZJ9FXjh7ITa7njPLkP3RtMffNTBQgaaapdO3AzVXjk/k2TzS0kZTtfSArMdvcwT1aSJ9I9FTByu+19lUbXZVccVF7W02kD/beJOF3J0kg8cuCgMtVz8jTm2jq4f8ArSGjRxCVFdTIKsmUi0wdELi3nTySmxsStBhKqSUptq4HNPmmnRSopJ7GrHZprVG0+ObuTRr+3mt9RpgeGIAyA4RuULsFYCH1nanwt6DU+vyWp7hmpAjiVsxtQVHOzycpf4IdmcIPRMES6VMugAAQIlQqTs0mVTnaJh8YjFb4z5KY8TTcPP0UEZvKm0aka6J/GkinK2VdRJCXcMwuI55dNyQ1aEZ2OAI0IRqSLLt7d/qEGHECPRM2d3OTskdy3A4OGhWVr0PTIdJ2FxHAqXXbPjG/4hwPFR75uYqDQ5HqnbethaTu4dVaUtcgS3RI2fW3eX7JV7bBw+XIqKRhcHN+F2XQqza6RKVJ/wAkXM+2QY3qTRqQlbTpfzDdqo9Ip6akrFtU6JDqoFSdQYB6HJO3FDMYfhhQjqp1N8jpkfoq5FcUENMJ1BrmOp1G4mOEEFZbaWy3UHASXMPwu48jzWuBCOvRDxgcA5p8iOYScmFSWh2LO4PZiKtOQm2jipu1LWpQdDh4TOF24j6FVVzWnIHqsSi+mdFPVoZquk8tybqgkADU5DqUal7Hp47hjdYOL0094WiC2kLk6TZs9lW/d0w0GA0AegzKiiq+pXEk4QDlu1jTirWqzC3yz6lQbanDx0+oWhy/I7XSOfFcVvssL/4Qq5vxKw2ich0VWXZyq40Wl0N0zmT1UuiclCpqXT0laJ9CY9kC4d4jyyCDE1iklOMKbFaFS7DL0EmEEAW1i8uGeanObLSOSCCxyNCK9mbXDdhJ8xokN/239B8wggpl9WSu0Lon8t3KFY2JyRoKr+rB9ka++F/QqroFEgr4vqyJ9odp6lTrQZxxBnyEoIKX9Q9htOiViOIoIJiFSE7YpB9rUxCYaXDkQMiuZtKCCw5vsdHxfoxQV32BaDcPJzIbl6oIKsRub6M220B4fviodP4m9D8wggteL6s5s+0P7Q3dFVv3oIKmIvPobO5PF3gPRBBaMnSFQK1qeaggnCmLQQQSi5//2Q==" alt="Сергій Жадан" style="width: 300px; display:block; margin: 30px auto; border-radius: 10px;">
+
+  <h2 class="gradient-heading">Особисті дані</h2>
+  <ul>
+    <li>Рік народження: 23 серпня, 1974</li>
+    <li>Місто: Старобільськ</li>
+  </ul>
+
+  <h2 class="gradient-heading">Освіта</h2>
+  <ol>
+    <li>Школа: Навчався в Старобільську</li>
+    <li>Університет: Харківський університет, філологія</li>
+  </ol>
+
+  <h2 class="gradient-heading">Біографічні дані</h2>
+  <p>
+    Сергій Жадан народився 23 серпня 1974 року в місті Старобільськ Ворошиловградської області (нині — Луганська область). Його батько працював водієм і був членом Комуністичної партії, хоча не мав ідейної прихильності до комунізму. 
+Мабутній письменник часто відвідував Харків, де гостював у своєї тітки Олександри Ковальової — поетеси та перекладачки з німецької, яка була головою культурологічного товариства "Спадщина". Вона мала значний вплив на юнака, познайомила його з письменниками, політиками, музикантами, журналістами, які "виступали за українську незалежність", а також із забороненою на той час рухівською літературою
+  </p>
+  <ul>
+    <li><a href="#zhadan-books">Перейти до книг Сергія Жадана</a></li>
+    <li><a href="poetry.html">Перейти до віршів Жадана</a></li>
+	<li><a href="https://ukrainky.com.ua/sergij-zhadan-pro-lyubov-zhyttya-smert-chas-ta-vijnu/">Цитати від Сергія Жадана</a></li>
+  </ul>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/LH4AA74RJmQ?si=NEmwUByQ3pRgWEnS&amp;controls=0" allowfullscreen></iframe>
+
+  <h2 class="gradient-heading">Фотографії</h2>
+  <div class="photo-row">
+    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdAIZ9ffdy3bXP0eUIBr0zhd1Or8-3O1Bd1M71-FOZwLmSlHI-uVNvnyEilqy2U3kZZ3M&usqp=CAU"><figcaption>На літературному вечорі</figcaption></figure>
+    <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBrjEXnos2aiu_2eztCtJ6V4GFqHre_jms9g&s"><figcaption>Жадан з побратимами</figcaption></figure>
+    <figure><img src="https://bykvu.com/wp-content/uploads/2020/05/22/%D0%B6%D0%B0%D0%B4%D0%B0%D0%BD.jpg"><figcaption>Жадан з дочкою</figcaption></figure>
+    <figure><img src="https://zmist-tech-space.fra1.cdn.digitaloceanspaces.com/2024/02/zhadan_konczert_-20.2.23_10-1.jpg"><figcaption>Виступ</figcaption></figure>
+  </div>
+
+  <h2 id="zhadan-books" class="gradient-heading">Книги Сергія Жадана</h2>
+<div class="photo-row">
+  <figure>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcShcy8BnkUaAm_-Lr5YwLpNw6E6BEJIZJESFn_ER5qFaTe4JGHIbAwdR2PdDq7KwcIz-gOupaEIlQao7v81-lDFn5f6E8Tbvrv_-JS1ObM_&usqp=CAc" width="200">
+    <figcaption>
+      «Ворошиловград» (2010)<br>
+      <a href="https://www.yakaboo.ua/ua/voroshilovgrad-1760599.html?srsltid=AfmBOorI2boC1hdJDpV33QbOftw5wwGrMHF9RXvYxmw21Hh1xsORjDM_" target="_blank" style="color:#87CEFA; text-decoration:underline;">Придбати</a>
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQe8p5otod0OAlOLxkRiu8lWNdkulNn-01GBZ2sCddetL4_Lq0z7C0XCalIdjtDaxyfrbXheafb9u_S3NaJp8CG4y0CD2Ts4uarObeC_I7r&usqp=CAc" width="200">
+    <figcaption>
+      «Месопотамія» (2014)<br>
+      <a href="https://www.yakaboo.ua/ua/mesopotamija-2375398.html?srsltid=AfmBOorxAyxBrdgJOEHYiF_0JCYFG2M0aLmgWKHnPaVzznaEm_3xV3pq" target="_blank" style="color:#87CEFA; text-decoration:underline;">Придбати</a>
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRewZCHJyD1uOpYhQwxm7vFeXAwNqHZTNzlfO6x0hq-2xvqqrRqrtpDTCyLyOEkVv9r0LOEte72W7wLxu8DSAnjZYd9tpKDgOoEKrwInffI&usqp=CAc" width="200">
+    <figcaption>
+      «Інтернат» (2017)<br>
+      <a href="https://www.yakaboo.ua/ua/internat.html?srsltid=AfmBOopiV9gSEwqU6wlyZSLpVqoehaV0SxceQhtpNBbY_WaaHwz-9KGa" target="_blank" style="color:#87CEFA; text-decoration:underline;">Придбати</a>
+    </figcaption>
+  </figure>
+</div>
+<h2 class="gradient-heading">🎙 Аудіопоезія Сергія Жадана</h2>
+<p>Послухайте вірш у виконанні автора — справжній голос сучасної української літератури.</p>
+<iframe 
+  width="100%" 
+  height="166" 
+  scrolling="no" 
+  frameborder="no" 
+  allow="autoplay" 
+  src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/5dnqw789fjgz/sergy-zhadan-dekomu-krashche-vdayutsya-prigolosn&color=%2300aabb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+</iframe>
+
+
+  <div class="fact-box">
+    <h2>Цікавий факт 🌟</h2>
+    <p>Сергій Жадан — не лише поет, а й вокаліст гурту «Жадан і Собаки». Його концерти — справжня вибухова суміш літератури й року.</p>
+    <h2>Ще один факт 💬</h2>
+    <p>Під час повномасштабної війни Жадан активно допомагає військовим і цивільним у Харкові — як волонтер і культурний лідер.</p>
+  </div>
+</body>
+</html>
